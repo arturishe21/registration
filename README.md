@@ -2,7 +2,7 @@
 
 В composer.json добавляем в блок require
 ```json
- "artur/registration": "1.0.*"
+ "vis/registration": "1.0.*"
 ```
 
 Выполняем
@@ -17,17 +17,17 @@ composer update
 
 Публикуем js файлы
 ```json
-   php artisan asset:publish artur/registration
+   php artisan asset:publish vis/registration
 ```
 
 Публикуем config
 ```json
-   php artisan config:publish artur/registration
+   php artisan config:publish vis/registration
 ```
 
 Публикуем views
 ```json
-   php artisan view:publish artur/registration
+   php artisan view:publish vis/registration
 ```
 
 Вызов  формы авторизации в вьюхе
